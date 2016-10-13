@@ -1,0 +1,33 @@
+{
+  "name": "electron-python-clone",
+  "version": "1.0.0",
+  "description": "A minimal Electron application with Python",
+  "main": "main.js",
+  "main_url": "http://localhost:9000/",
+  "scripts": {
+    "start": "php -S 0.0.0.0:9000"
+  },
+  "repository": "https://github.com/wallacesilva/electron-clone-python-start",
+  "keywords": [
+    "Electron",
+    "quick",
+    "start",
+    "tutorial",
+    "demo"
+  ],
+  "author": "Wallace Silva",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "^1.4.1"
+  },
+  "window": {
+    "width": 1080,
+    "minWidth": 680,
+    "height": 840,
+    "isTopLevel": false,
+    "isFullscreen": false,
+    "isResizable": false,
+    "position": "center",
+    "icon": "icons/default.png"
+  }
+}
